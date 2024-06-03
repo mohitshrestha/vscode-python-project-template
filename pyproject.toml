@@ -1,12 +1,12 @@
 [tool.ruff]
 line-length = 120
-target-version = "py311"
+target-version = "py312"
 select = ["E", "F", "I", "UP"]
 ignore = ["D203"]
 
 [tool.black]
 line-length = 120
-target-version = ["py311"]
+target-version = ["py312"]
 
 [tool.pytest.ini_options]
 addopts = "-ra --cov"
